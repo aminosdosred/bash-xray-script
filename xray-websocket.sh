@@ -5,12 +5,6 @@
 echo Enter a valid gen4 UUID:
 read UUID
 
-#configure timezone to sri lanka standards
-
-rm -rf /etc/localtime
-cp /usr/share/zoneinfo/Asia/Colombo /etc/localtime
-date -R
-
 apt install ufw
 
 #firewall rules
